@@ -91,4 +91,22 @@ export const services: Service[] = [
       'Dịch vụ Generative AI giúp doanh nghiệp khai thác sức mạnh của trí tuệ nhân tạo tạo sinh thông qua nền tảng AWS Bedrock và các mô hình AI tiên tiến. Chúng tôi tư vấn, xây dựng và triển khai các ứng dụng AI như chatbot thông minh, tự động hóa nội dung, phân tích tài liệu và các giải pháp AI tùy chỉnh phù hợp với nhu cầu kinh doanh.',
     icon: 'Brain',
   },
+  {
+    id: '11',
+    slug: 'ai-integration',
+    name: 'AI Integration Services',
+    shortDescription: 'Tích hợp AI vào quy trình vận hành — LLM, Chatbot nội bộ, tự động hóa văn bản cho SME.',
+    fullDescription:
+      'AI Integration Services giúp doanh nghiệp vừa và nhỏ ứng dụng trí tuệ nhân tạo vào hoạt động thực tế. Chúng tôi triển khai các giải pháp LLM (Large Language Model), xây dựng Chatbot nội bộ thông minh, tự động hóa quy trình xử lý văn bản và tích hợp AI vào hệ thống hiện có. Với chi phí hợp lý và thời gian triển khai nhanh, SME có thể tận dụng sức mạnh AI ngay hôm nay.',
+    icon: 'Brain',
+  },
+  {
+    id: '12',
+    slug: 'aws-managed-services',
+    name: 'AWS Managed Services & Cloud Migration',
+    shortDescription: 'Quản trị AWS toàn diện và di chuyển hạ tầng lên cloud — giảm 30–50% chi phí, CI/CD tự động, hỗ trợ 24/7.',
+    fullDescription:
+      'Dịch vụ AWS Managed Services & Cloud Migration của Glomix giúp SME tối ưu hạ tầng AWS toàn diện. Chúng tôi đảm nhận toàn bộ việc quản trị, giám sát 24/7, thiết lập CI/CD tự động và di chuyển hệ thống lên cloud an toàn. Cam kết giảm 30–50% chi phí vận hành so với on-premise.',
+    icon: 'Server',
+  },
 ];
