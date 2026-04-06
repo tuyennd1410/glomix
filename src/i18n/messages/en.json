@@ -16,6 +16,7 @@
     "headline": "Glomix - Global In Minutes. Cloud & AI Transformation.",
     "subheadline": "Optimize AWS infrastructure and integrate breakthrough AI for small and medium enterprises.",
     "cta": "Free Consultation",
+    "viewServices": "View Services",
     "slogan": "Cloud Computing - Productivity - Security - Stability",
     "slideIndicator": "Go to slide {index}"
   },
@@ -41,6 +42,7 @@
     }
   },
   "products": {
+    "mostPopular": "Most Popular",
     "sectionTitle": "SME Product Packages",
     "sectionSubtitle": "Choose the package that fits your business size and needs",
     "learnMore": "Learn More",
@@ -109,18 +111,18 @@
   },
   "stats": {
     "sectionTitle": "Our Numbers",
-    "positiveFeedback": "Positive Feedback",
-    "costOptimization": "Cost Optimization",
-    "customers": "Customers",
-    "creditSupport": "Credit Support"
+    "reduceCost": "AWS Cost Reduction",
+    "fasterDeploy": "Faster Deployment",
+    "smeClients": "SME Businesses",
+    "support": "Technical Support"
   },
   "about": {
     "sectionTitle": "About Glomix",
-    "subtitle": "Trusted Cloud & AI partner for small and medium enterprises",
-    "description": "Glomix is a technology company specializing in AWS Managed Services, Cloud Migration, and AI Integration. With a team of experienced experts, we partner with SME businesses on their digital transformation and sustainable growth journey.",
+    "subtitle": "Specialized AWS Partner for Small & Medium Enterprises",
+    "description": "Glomix (glomix.cloud) specializes in AWS Managed Services, Cloud Migration, and AI Integration for SMEs. We help businesses optimize infrastructure costs, accelerate deployment, and apply AI to operational workflows.",
     "awsPartner": "AWS Partner",
-    "customers": "800+ Customers",
-    "experience": "10+ Years Experience"
+    "customers": "100+ SMEs",
+    "experience": "Cloud & AI Expert"
   },
   "cta": {
     "title": "Ready to Transform with Glomix?",

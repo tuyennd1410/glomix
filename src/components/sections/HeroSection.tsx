@@ -119,7 +119,7 @@ export default function HeroSection() {
             onClick={() => document.getElementById('services')?.scrollIntoView({ behavior: 'smooth' })}
             className="border border-white/30 hover:border-white/60 text-white/80 hover:text-white font-medium px-8 py-3.5 rounded-lg transition-all backdrop-blur-sm"
           >
-            Xem dịch vụ →
+            {t('viewServices')} →
           </button>
         </div>
 

@@ -16,6 +16,7 @@
     "headline": "Glomix - Global In Minutes. Cloud & AI Transformation.",
     "subheadline": "Tối ưu hạ tầng AWS và tích hợp AI đột phá cho doanh nghiệp vừa và nhỏ.",
     "cta": "Tư vấn miễn phí",
+    "viewServices": "Xem dịch vụ",
     "slogan": "Điện toán đám mây - Năng suất - Bảo mật - Ổn định",
     "slideIndicator": "Chuyển đến slide {index}"
   },
@@ -41,6 +42,7 @@
     }
   },
   "products": {
+    "mostPopular": "Phổ biến nhất",
     "sectionTitle": "Gói sản phẩm dành cho SME",
     "sectionSubtitle": "Lựa chọn gói phù hợp với quy mô và nhu cầu của doanh nghiệp bạn",
     "learnMore": "Tìm hiểu thêm",
@@ -109,18 +111,18 @@
   },
   "stats": {
     "sectionTitle": "Thống kê của chúng tôi",
-    "positiveFeedback": "Phản hồi tích cực",
-    "costOptimization": "Tối ưu chi phí",
-    "customers": "Khách hàng",
-    "creditSupport": "Credit hỗ trợ"
+    "reduceCost": "Giảm chi phí AWS",
+    "fasterDeploy": "Tăng tốc triển khai",
+    "smeClients": "Doanh nghiệp SME",
+    "support": "Hỗ trợ kỹ thuật"
   },
   "about": {
     "sectionTitle": "Về Glomix",
-    "subtitle": "Đối tác Cloud & AI tin cậy cho doanh nghiệp vừa và nhỏ",
-    "description": "Glomix là công ty công nghệ chuyên cung cấp dịch vụ AWS Managed Services, Cloud Migration và AI Integration. Với đội ngũ chuyên gia giàu kinh nghiệm, chúng tôi đồng hành cùng doanh nghiệp SME trên hành trình chuyển đổi số và tăng trưởng bền vững.",
+    "subtitle": "Đối tác AWS chuyên biệt cho doanh nghiệp vừa và nhỏ",
+    "description": "Glomix (glomix.cloud) chuyên cung cấp dịch vụ AWS Managed Services, Cloud Migration và AI Integration cho SME. Chúng tôi giúp doanh nghiệp tối ưu chi phí hạ tầng, tăng tốc triển khai và ứng dụng AI vào quy trình vận hành.",
     "awsPartner": "AWS Partner",
-    "customers": "800+ khách hàng",
-    "experience": "10+ năm kinh nghiệm"
+    "customers": "100+ SME",
+    "experience": "Cloud & AI Expert"
   },
   "cta": {
     "title": "Sẵn sàng chuyển đổi cùng Glomix?",

@@ -1,0 +1,78 @@
+024 22345653
+
+git remote add origin https://github.com/tuyennd1410/glomix.git
+
+
+sudo dnf install -y git
+git clone https://github.com/tuyennd1410/glomix.git
+cd glomix.cloud
+
+DATABASE_URL="mysql://vivula:sYUFzD2zzU87ZmR@database-1.cxqygms0ejwj.ap-southeast-1.rds.amazonaws.com:3306/glomix"
+JWT_SECRET="your-strong-random-secret-min-32-chars"
+JWT_EXPIRES_IN="24h"
+NEXT_PUBLIC_APP_URL="https://glomix.cloud"
+NEXT_PUBLIC_GA_ID="G-XXXXXXXXXX"
+
+
+pm2 start npm --name "glomix" -- start
+pm2 save
+pm2 startup  # tự khởi động khi reboot
+
+
+sudo dnf install -y nginx
+sudo systemctl enable nginx
+sudo systemctl start nginx
+
+sudo nano /etc/nginx/conf.d/glomix.conf
+
+server {
+    listen 80;
+    server_name glomix.cloud www.glomix.cloud;
+
+    location / {
+        proxy_pass http://localhost:3000;
+        proxy_http_version 1.1;
+        proxy_set_header Upgrade $http_upgrade;
+        proxy_set_header Connection 'upgrade';
+        proxy_set_header Host $host;
+        proxy_cache_bypass $http_upgrade;
+    }
+}
+
+
+sudo dnf install -y certbot python3-certbot-nginx
+sudo certbot --nginx -d glomix.cloud -d www.glomix.cloud
+
+sudo certbot --nginx -d glomix.cloud -d www.glomix.cloud
+
+git add .
+git commit -m "fix: cap nhat admin page"
+git push origin main
+Trên server EC2
+SSH vào server rồi chạy:
+
+cd ~/glomix
+git pull origin main
+npm install
+npm run build
+pm2 restart glomix
+Để đơn giản hơn, tạo script deploy 1 lệnh trên server:
+
+nano ~/deploy.sh
+Nội dung:
+
+#!/bin/bash
+cd ~/glomix
+git pull origin main
+npm install --production
+npm run build
+pm2 restart glomix
+echo "Deploy xong!"
+Cấp quyền chạy:
+
+
+
+chmod +x ~/deploy.sh
+Từ đó mỗi lần update chỉ cần chạy:
+
+~/deploy.sh

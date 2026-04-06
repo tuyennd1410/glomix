@@ -50,7 +50,7 @@ export default function ProductsSection() {
               {/* Badge "Phổ biến nhất" */}
               {featured && (
                 <span className="absolute -top-3.5 left-1/2 -translate-x-1/2 rounded-full bg-gradient-to-r from-[#4A9EE8] to-[#7B4FD4] px-4 py-1 text-xs font-semibold text-white whitespace-nowrap">
-                  Phổ biến nhất
+                  {t('mostPopular')}
                 </span>
               )}
 
