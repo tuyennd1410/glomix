@@ -1,0 +1,176 @@
+{
+  "nav": {
+    "home": "Trang chủ",
+    "services": "Dịch vụ",
+    "products": "Sản phẩm",
+    "careers": "Tuyển dụng",
+    "about": "Về chúng tôi",
+    "cta": "Tư vấn miễn phí",
+    "caseStudies": "Case Studies",
+    "news": "Tin tức",
+    "blog": "Blog",
+    "contact": "Liên hệ ngay",
+    "langSwitch": "EN"
+  },
+  "hero": {
+    "headline": "Glomix - Global In Minutes. Cloud & AI Transformation.",
+    "subheadline": "Tối ưu hạ tầng AWS và tích hợp AI đột phá cho doanh nghiệp vừa và nhỏ.",
+    "cta": "Tư vấn miễn phí",
+    "slogan": "Điện toán đám mây - Năng suất - Bảo mật - Ổn định",
+    "slideIndicator": "Chuyển đến slide {index}"
+  },
+  "services": {
+    "sectionTitle": "Dịch vụ của chúng tôi",
+    "sectionSubtitle": "Giải pháp toàn diện cho doanh nghiệp vừa và nhỏ",
+    "learnMore": "Tìm hiểu thêm",
+    "aws": {
+      "title": "AWS Managed Services & Cloud Migration",
+      "description": "Chúng tôi giúp doanh nghiệp di chuyển lên AWS an toàn, tối ưu chi phí và vận hành ổn định 24/7.",
+      "highlight1": "Giảm 30–50% chi phí hạ tầng",
+      "highlight2": "CI/CD tự động hóa quy trình triển khai",
+      "highlight3": "Quản trị và giám sát 24/7",
+      "cta": "Tìm hiểu thêm"
+    },
+    "ai": {
+      "title": "AI Integration Services",
+      "description": "Tích hợp trí tuệ nhân tạo vào quy trình kinh doanh, nâng cao năng suất và tạo lợi thế cạnh tranh.",
+      "highlight1": "Triển khai mô hình LLM tùy chỉnh",
+      "highlight2": "Chatbot nội bộ thông minh",
+      "highlight3": "Tự động hóa quy trình xử lý văn bản",
+      "cta": "Tìm hiểu thêm"
+    }
+  },
+  "products": {
+    "sectionTitle": "Gói sản phẩm dành cho SME",
+    "sectionSubtitle": "Lựa chọn gói phù hợp với quy mô và nhu cầu của doanh nghiệp bạn",
+    "learnMore": "Tìm hiểu thêm",
+    "register": "Đăng ký",
+    "pricingType": "Hình thức",
+    "cloudHealthCheck": {
+      "name": "Cloud Health Check",
+      "description": "Đánh giá toàn diện hạ tầng AWS hiện tại, xác định điểm tối ưu và đề xuất giải pháp tiết kiệm chi phí.",
+      "pricingType": "Phí một lần",
+      "cta": "Tìm hiểu thêm"
+    },
+    "aiStarter": {
+      "name": "AI Starter",
+      "description": "Triển khai nhanh 01 chatbot nội bộ tùy chỉnh, giúp tự động hóa hỗ trợ nhân viên và khách hàng.",
+      "pricingType": "Triển khai nhanh",
+      "cta": "Đăng ký"
+    },
+    "growthOps": {
+      "name": "Growth Ops",
+      "description": "Quản trị AWS toàn diện kết hợp hỗ trợ kỹ thuật 24/7, giúp doanh nghiệp tập trung vào tăng trưởng.",
+      "pricingType": "Phí hàng tháng",
+      "cta": "Tìm hiểu thêm"
+    }
+  },
+  "leadForm": {
+    "sectionTitle": "Nhận ưu đãi 20% cho dự án đầu tiên & Bản báo cáo tối ưu chi phí Cloud miễn phí.",
+    "sectionSubtitle": "Điền thông tin bên dưới, chuyên gia của chúng tôi sẽ liên hệ tư vấn miễn phí trong vòng 24 giờ.",
+    "customerName": "Họ và tên",
+    "customerNamePlaceholder": "Nguyễn Văn A",
+    "email": "Email",
+    "emailPlaceholder": "email@congty.com",
+    "phone": "Số điện thoại",
+    "phonePlaceholder": "0912345678",
+    "serviceInterest": "Nhu cầu dịch vụ",
+    "serviceInterestPlaceholder": "Chọn nhu cầu của bạn",
+    "serviceOptions": {
+      "awsMigration": "AWS Migration",
+      "aiIntegration": "AI Integration",
+      "both": "Cả hai"
+    },
+    "submitButton": "Nhận ưu đãi ngay",
+    "submitting": "Đang gửi...",
+    "successMessage": "Cảm ơn bạn! Chúng tôi sẽ liên hệ trong vòng 24 giờ.",
+    "errorDuplicate": "Email này đã đăng ký. Chúng tôi sẽ liên hệ sớm.",
+    "errorGeneral": "Có lỗi xảy ra. Vui lòng thử lại sau.",
+    "validation": {
+      "nameRequired": "Họ và tên không được để trống",
+      "emailInvalid": "Email không hợp lệ",
+      "phoneInvalid": "Số điện thoại không hợp lệ",
+      "serviceRequired": "Vui lòng chọn nhu cầu dịch vụ"
+    }
+  },
+  "footer": {
+    "brand": "Glomix",
+    "tagline": "Công ty công nghệ chuyên cung cấp dịch vụ AWS Managed Services, Cloud Migration và AI Integration cho doanh nghiệp vừa và nhỏ tại Việt Nam.",
+    "contactTitle": "Liên hệ",
+    "address": "Hà Nội, Việt Nam",
+    "phone": "+84 24 22345655",
+    "email": "contact@glomix.cloud",
+    "servicesTitle": "Dịch vụ",
+    "socialTitle": "Mạng xã hội",
+    "copyright": "© {year} Glomix. Tất cả quyền được bảo lưu.",
+    "addressLabel": "Địa chỉ",
+    "phoneLabel": "Điện thoại",
+    "emailLabel": "Email"
+  },
+  "stats": {
+    "sectionTitle": "Thống kê của chúng tôi",
+    "positiveFeedback": "Phản hồi tích cực",
+    "costOptimization": "Tối ưu chi phí",
+    "customers": "Khách hàng",
+    "creditSupport": "Credit hỗ trợ"
+  },
+  "about": {
+    "sectionTitle": "Về Glomix",
+    "subtitle": "Đối tác Cloud & AI tin cậy cho doanh nghiệp vừa và nhỏ",
+    "description": "Glomix là công ty công nghệ chuyên cung cấp dịch vụ AWS Managed Services, Cloud Migration và AI Integration. Với đội ngũ chuyên gia giàu kinh nghiệm, chúng tôi đồng hành cùng doanh nghiệp SME trên hành trình chuyển đổi số và tăng trưởng bền vững.",
+    "awsPartner": "AWS Partner",
+    "customers": "800+ khách hàng",
+    "experience": "10+ năm kinh nghiệm"
+  },
+  "cta": {
+    "title": "Sẵn sàng chuyển đổi cùng Glomix?",
+    "description": "Đội ngũ chuyên gia của chúng tôi sẵn sàng đồng hành cùng bạn trên hành trình tối ưu hạ tầng AWS và tích hợp AI.",
+    "primary": "Liên hệ ngay",
+    "secondary": "Tìm hiểu thêm"
+  },
+  "admin": {
+    "login": {
+      "title": "Đăng nhập Admin",
+      "subtitle": "Quản lý danh sách khách hàng tiềm năng",
+      "username": "Tên đăng nhập",
+      "usernamePlaceholder": "Nhập tên đăng nhập",
+      "password": "Mật khẩu",
+      "passwordPlaceholder": "Nhập mật khẩu",
+      "submitButton": "Đăng nhập",
+      "submitting": "Đang đăng nhập...",
+      "errorInvalid": "Tên đăng nhập hoặc mật khẩu không đúng",
+      "errorGeneral": "Có lỗi xảy ra. Vui lòng thử lại sau."
+    },
+    "dashboard": {
+      "title": "Quản lý Lead",
+      "subtitle": "Danh sách khách hàng tiềm năng",
+      "totalLeads": "Tổng số Lead",
+      "exportCsv": "Xuất CSV",
+      "logout": "Đăng xuất",
+      "statsTitle": "Thống kê theo nhu cầu dịch vụ",
+      "tableTitle": "Danh sách Lead",
+      "colName": "Họ và tên",
+      "colEmail": "Email",
+      "colPhone": "Số điện thoại",
+      "colService": "Nhu cầu",
+      "colCreatedAt": "Ngày tạo",
+      "noData": "Chưa có dữ liệu",
+      "pagination": {
+        "prev": "Trước",
+        "next": "Tiếp",
+        "pageInfo": "Trang {current} / {total}"
+      },
+      "serviceInterest": {
+        "AWS_Migration": "AWS Migration",
+        "AI_Integration": "AI Integration",
+        "Both": "Cả hai"
+      }
+    }
+  },
+  "metadata": {
+    "title": "Glomix - Cloud & AI Transformation cho doanh nghiệp SME",
+    "description": "Glomix cung cấp dịch vụ AWS Managed Services, Cloud Migration và AI Integration cho doanh nghiệp vừa và nhỏ tại Việt Nam.",
+    "ogTitle": "Glomix Cloud & AI Services",
+    "ogDescription": "Tối ưu hạ tầng AWS và tích hợp AI đột phá cho doanh nghiệp vừa và nhỏ."
+  }
+}

@@ -1,0 +1,8 @@
+.git
+.gitignore
+.kiro
+.vscode
+.next
+*.md
+Dockerfile
+.dockerignore

@@ -1,0 +1,176 @@
+{
+  "nav": {
+    "home": "Home",
+    "services": "Services",
+    "products": "Products",
+    "careers": "Careers",
+    "about": "About Us",
+    "cta": "Free Consultation",
+    "caseStudies": "Case Studies",
+    "news": "News",
+    "blog": "Blog",
+    "contact": "Contact Us",
+    "langSwitch": "VI"
+  },
+  "hero": {
+    "headline": "Glomix - Global In Minutes. Cloud & AI Transformation.",
+    "subheadline": "Optimize AWS infrastructure and integrate breakthrough AI for small and medium enterprises.",
+    "cta": "Free Consultation",
+    "slogan": "Cloud Computing - Productivity - Security - Stability",
+    "slideIndicator": "Go to slide {index}"
+  },
+  "services": {
+    "sectionTitle": "Our Services",
+    "sectionSubtitle": "Comprehensive solutions for small and medium enterprises",
+    "learnMore": "Learn More",
+    "aws": {
+      "title": "AWS Managed Services & Cloud Migration",
+      "description": "We help businesses migrate to AWS safely, optimize costs, and maintain stable 24/7 operations.",
+      "highlight1": "Reduce infrastructure costs by 30–50%",
+      "highlight2": "Automated CI/CD deployment pipelines",
+      "highlight3": "24/7 management and monitoring",
+      "cta": "Learn More"
+    },
+    "ai": {
+      "title": "AI Integration Services",
+      "description": "Integrate artificial intelligence into business processes to boost productivity and gain competitive advantage.",
+      "highlight1": "Deploy custom LLM models",
+      "highlight2": "Intelligent internal chatbots",
+      "highlight3": "Automated document processing workflows",
+      "cta": "Learn More"
+    }
+  },
+  "products": {
+    "sectionTitle": "SME Product Packages",
+    "sectionSubtitle": "Choose the package that fits your business size and needs",
+    "learnMore": "Learn More",
+    "register": "Get Started",
+    "pricingType": "Pricing",
+    "cloudHealthCheck": {
+      "name": "Cloud Health Check",
+      "description": "Comprehensive assessment of your current AWS infrastructure, identifying optimization opportunities and cost-saving recommendations.",
+      "pricingType": "One-time fee",
+      "cta": "Learn More"
+    },
+    "aiStarter": {
+      "name": "AI Starter",
+      "description": "Rapid deployment of one custom internal chatbot to automate employee and customer support.",
+      "pricingType": "Quick deployment",
+      "cta": "Get Started"
+    },
+    "growthOps": {
+      "name": "Growth Ops",
+      "description": "Full AWS management combined with 24/7 technical support, letting your business focus on growth.",
+      "pricingType": "Monthly subscription",
+      "cta": "Get Started"
+    }
+  },
+  "leadForm": {
+    "sectionTitle": "Get 20% off your first project & a free Cloud cost optimization report.",
+    "sectionSubtitle": "Fill in your details below and our experts will contact you for a free consultation within 24 hours.",
+    "customerName": "Full Name",
+    "customerNamePlaceholder": "John Smith",
+    "email": "Email",
+    "emailPlaceholder": "email@company.com",
+    "phone": "Phone Number",
+    "phonePlaceholder": "e.g. 0912345678",
+    "serviceInterest": "Service Interest",
+    "serviceInterestPlaceholder": "Select your interest",
+    "serviceOptions": {
+      "awsMigration": "AWS Migration",
+      "aiIntegration": "AI Integration",
+      "both": "Both"
+    },
+    "submitButton": "Claim Your Offer",
+    "submitting": "Submitting...",
+    "successMessage": "Thank you! We will contact you within 24 hours.",
+    "errorDuplicate": "This email is already registered. We will reach out soon.",
+    "errorGeneral": "An error occurred. Please try again later.",
+    "validation": {
+      "nameRequired": "Full name is required",
+      "emailInvalid": "Invalid email address",
+      "phoneInvalid": "Invalid phone number",
+      "serviceRequired": "Please select a service interest"
+    }
+  },
+  "footer": {
+    "brand": "Glomix",
+    "tagline": "A technology company specializing in AWS Managed Services, Cloud Migration, and AI Integration for small and medium enterprises in Vietnam.",
+    "contactTitle": "Contact",
+    "address": "Hanoi, Vietnam",
+    "phone": "+84 24 22345655",
+    "email": "contact@glomix.cloud",
+    "servicesTitle": "Services",
+    "socialTitle": "Social Media",
+    "copyright": "© {year} Glomix. All rights reserved.",
+    "addressLabel": "Address",
+    "phoneLabel": "Phone",
+    "emailLabel": "Email"
+  },
+  "stats": {
+    "sectionTitle": "Our Numbers",
+    "positiveFeedback": "Positive Feedback",
+    "costOptimization": "Cost Optimization",
+    "customers": "Customers",
+    "creditSupport": "Credit Support"
+  },
+  "about": {
+    "sectionTitle": "About Glomix",
+    "subtitle": "Trusted Cloud & AI partner for small and medium enterprises",
+    "description": "Glomix is a technology company specializing in AWS Managed Services, Cloud Migration, and AI Integration. With a team of experienced experts, we partner with SME businesses on their digital transformation and sustainable growth journey.",
+    "awsPartner": "AWS Partner",
+    "customers": "800+ Customers",
+    "experience": "10+ Years Experience"
+  },
+  "cta": {
+    "title": "Ready to Transform with Glomix?",
+    "description": "Our team of experts is ready to partner with you on your journey to optimize AWS infrastructure and integrate AI.",
+    "primary": "Contact Us",
+    "secondary": "Learn More"
+  },
+  "admin": {
+    "login": {
+      "title": "Admin Login",
+      "subtitle": "Manage your leads",
+      "username": "Username",
+      "usernamePlaceholder": "Enter username",
+      "password": "Password",
+      "passwordPlaceholder": "Enter password",
+      "submitButton": "Sign In",
+      "submitting": "Signing in...",
+      "errorInvalid": "Invalid username or password",
+      "errorGeneral": "An error occurred. Please try again later."
+    },
+    "dashboard": {
+      "title": "Lead Management",
+      "subtitle": "Potential customer list",
+      "totalLeads": "Total Leads",
+      "exportCsv": "Export CSV",
+      "logout": "Sign Out",
+      "statsTitle": "Statistics by Service Interest",
+      "tableTitle": "Lead List",
+      "colName": "Full Name",
+      "colEmail": "Email",
+      "colPhone": "Phone",
+      "colService": "Service Interest",
+      "colCreatedAt": "Created At",
+      "noData": "No data available",
+      "pagination": {
+        "prev": "Previous",
+        "next": "Next",
+        "pageInfo": "Page {current} of {total}"
+      },
+      "serviceInterest": {
+        "AWS_Migration": "AWS Migration",
+        "AI_Integration": "AI Integration",
+        "Both": "Both"
+      }
+    }
+  },
+  "metadata": {
+    "title": "Glomix - Cloud & AI Transformation for SME Businesses",
+    "description": "Glomix provides AWS Managed Services, Cloud Migration, and AI Integration for small and medium enterprises in Vietnam.",
+    "ogTitle": "Glomix Cloud & AI Services",
+    "ogDescription": "Optimize AWS infrastructure and integrate breakthrough AI for small and medium enterprises."
+  }
+}
