@@ -18,6 +18,12 @@ export const services: Service[] = [
     fullDescription:
       'AWS Managed Services cung cấp dịch vụ quản lý hạ tầng đám mây toàn diện bao gồm giám sát 24/7, vá lỗi bảo mật, tối ưu hiệu suất và hỗ trợ kỹ thuật. Đội ngũ chuyên gia của chúng tôi đảm bảo hệ thống AWS của bạn luôn hoạt động ổn định, bảo mật và tuân thủ các tiêu chuẩn tốt nhất.',
     icon: 'Settings',
+    en: {
+      name: 'AWS Managed Services',
+      shortDescription: 'Comprehensive AWS infrastructure management, letting businesses focus on their core operations.',
+      fullDescription:
+        'AWS Managed Services provides comprehensive cloud infrastructure management including 24/7 monitoring, security patching, performance optimization, and technical support. Our team of experts ensures your AWS systems always operate stably, securely, and in compliance with best practices.',
+    },
   },
   {
     id: '3',
@@ -99,6 +105,12 @@ export const services: Service[] = [
     fullDescription:
       'AI Integration Services giúp doanh nghiệp vừa và nhỏ ứng dụng trí tuệ nhân tạo vào hoạt động thực tế. Chúng tôi triển khai các giải pháp LLM (Large Language Model), xây dựng Chatbot nội bộ thông minh, tự động hóa quy trình xử lý văn bản và tích hợp AI vào hệ thống hiện có. Với chi phí hợp lý và thời gian triển khai nhanh, SME có thể tận dụng sức mạnh AI ngay hôm nay.',
     icon: 'Brain',
+    en: {
+      name: 'AI Integration Services',
+      shortDescription: 'Integrate AI into operations — LLM, internal Chatbot, document automation for SMEs.',
+      fullDescription:
+        'AI Integration Services helps small and medium enterprises apply artificial intelligence to real-world operations. We deploy LLM (Large Language Model) solutions, build intelligent internal chatbots, automate document processing workflows, and integrate AI into existing systems. With affordable costs and fast deployment, SMEs can leverage the power of AI today.',
+    },
   },
   {
     id: '12',
@@ -108,5 +120,11 @@ export const services: Service[] = [
     fullDescription:
       'Dịch vụ AWS Managed Services & Cloud Migration của Glomix giúp SME tối ưu hạ tầng AWS toàn diện. Chúng tôi đảm nhận toàn bộ việc quản trị, giám sát 24/7, thiết lập CI/CD tự động và di chuyển hệ thống lên cloud an toàn. Cam kết giảm 30–50% chi phí vận hành so với on-premise.',
     icon: 'Server',
+    en: {
+      name: 'AWS Managed Services & Cloud Migration',
+      shortDescription: 'Full AWS management and cloud migration — reduce costs 30–50%, automated CI/CD, 24/7 support.',
+      fullDescription:
+        "Glomix's AWS Managed Services & Cloud Migration helps SMEs fully optimize their AWS infrastructure. We handle all management, 24/7 monitoring, automated CI/CD setup, and safe cloud migration. Committed to reducing operational costs by 30–50% compared to on-premise.",
+    },
   },
 ];

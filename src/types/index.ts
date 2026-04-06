@@ -25,7 +25,12 @@ export interface Service {
   name: string;
   shortDescription: string;
   fullDescription: string;
-  icon: string; // lucide icon name
+  icon: string;
+  en?: {
+    name: string;
+    shortDescription: string;
+    fullDescription: string;
+  };
 }
 
 export interface CaseStudy {
